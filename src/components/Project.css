@@ -1,0 +1,78 @@
+@media (min-width: 320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .project{
+        background-image: url('../Images/project.jpg');
+        background-size: cover;
+        background-position: center;
+        /* position: fixed; */
+        min-width: 100%;
+        min-height: 100%;
+        color: white;
+    }
+    .project h3{
+        color: #8dbbf8;
+        padding-bottom: 20px;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .pro{
+        width: 300px;
+        height: 400px;
+        border-radius: 10px;
+        border: 1px solid #8dbbf8;
+        margin: auto;
+        margin-bottom: 15px;
+        box-shadow: grey 3px 3px 3px 3px ;
+    }
+    .pro button{
+        background-color: #8dbbf8;
+        width: 250px;
+        height: 50px;
+        border-radius: 15px;
+        color: white;
+    }
+    .pro button:hover{
+        background: transparent;
+        cursor: pointer;
+    }
+    .huddle{
+        background-image: url('../Images/huddle.jpeg');
+        background-size: cover;
+        padding-top: 290px;
+    }
+    .rugwart{
+        background-image: url('../Images/rugwart.jpeg');
+        background-size: cover;
+        padding-top: 290px;
+    }
+    .kudi{
+        background-image: url('../Images/kudi.jpeg');
+        background-size: cover;
+        padding-top: 290px;
+    }
+    .loop{
+        background-image: url('../Images/loop.jpeg');
+        background-size: cover;
+        padding-top: 290px;
+    }
+
+    
+}
+@media (min-width: 375px){}
+@media (min-width: 425px){}
+@media (min-width: 768px){}
+@media (min-width: 1024px){
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        width: 80%;
+    }
+}
